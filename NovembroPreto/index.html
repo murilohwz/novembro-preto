@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="estilos.css">
+<title>Novembro Preto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-grey"><i class="fa fa-home w3-margin-right"></i>Thinkers</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Informações</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Conscientização</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Mais projetos<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+    </div>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#work" class="w3-bar-item w3-button">Informações</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Conscientização</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="img/capa.png" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <form action="">
+      <h1> Novembro Preto</h1>
+  </form>
+  </div>
+</div>
+
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div>
+<h2>O que é novembro Preto?</h2>
+<h4>É um movimento que busca combater o racismo, sendo o Brasil o país que mais mata pessoas negras no mundo e as excluem com um alto índice de bullying nas escolas e desigualdade no ambiente de trabalho. Nos alunos do Senai estipulamos ideias para que haja um incentivo ao combate ao racismo não só no mês de novembro mas durante todo o ano. </h4>
+</div>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>Filmes que abordam essa temática.</h2>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p>Escritores da Liberdade(2007), disponível no Prime Video. </p>
+        </li>
+        <img src="img/filme1.png" alt="">
+        </li>
+      </ul>
+    </div>
+
+    <div 
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-hover-shadow">
+          <li class="w3-theme">
+            <p>Dentro da minha pele (2021), disponível no Globoplay.</p>
+          </li>
+          <img src="img/filme2.png" alt="">
+          </li>
+        </ul>
+      </div>
+
+      <div 
+        <div class="w3-third w3-margin-bottom">
+          <ul class="w3-ul w3-border w3-hover-shadow">
+            <li class="w3-theme">
+              <p>Medida provisória (2020), disponível no Globoplay. </p>
+            </li>
+            <img src="img/filme3.png" alt="">
+            </li>
+          </ul>
+        </div>
+        </div>
+
+        <div>
+          <h2>Documentário - Em frente</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/P-z5rqVhbs8?si=n1CTq-a8nEPRtpIO&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+  <div>
+    <h5>“A Educação Antirracista dá oportunidade
+      para todos os que estão no ambiente escolar
+      terem uma aprendizagem digna,
+      feliz, igualitária e equânime.” - Rosa Margarida de Carvalho Rocha.</h5> 
+  </div>
+  </div>
+
+       
+          
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>De volta ao topo</h4>
+  
+  <p>Visite também: <a href="https://pedrinpz.github.io/novembro-azul/novembro.html" target="_blank">novembro-azul</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-top" >
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+      
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

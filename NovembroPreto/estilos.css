@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+}
+body {
+    background-color: #efe8d2;
+}
+h2{
+    color: white;
+}
+img{
+    width: 100%;
+}
+form{
+    width: 330px;
+    margin-top: 20%;
+    padding: 30px;
+    border-radius: px;
+    background-color: grey;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    color: grey;
+}
+
+iframe{       
+    border: 8px double;
+    border-color: #5b5b5b;
+}
